@@ -1,0 +1,549 @@
+/**
+ * 涓汉涓績椤甸潰鏍峰紡
+ * */
+#personalbigbox{
+	width:100%;
+	height: auto;
+	min-width: 1400px;
+	margin-top: 50px;
+}
+#personalbox{
+	width: 70%;
+	height: auto;
+	margin: 0 auto;
+}
+
+#personnavicates{
+	width: 25%;
+	height:auto;
+	float: left;
+}
+#headportrait{
+	height: 148px;
+	width: 100%;
+	background: lightblue;
+}
+.portraitbox{
+	height: 68px;
+	width: 100%;
+	position: relative;
+}
+.portraitbox>img{
+	display: block;
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	border-radius:50px;
+	left: 0;right: 0;
+	top:-50px;
+	margin: auto;
+}
+.portraitname{
+	width: 100%;
+	height:40px;
+	font-size:16px;
+	color:white;
+}
+.portraitname>span{
+	float: left;
+	height:40px;
+	line-height: 40px;
+	width:50%;
+	text-align: center;
+}
+.portraitname>em{
+	float: right;
+	height:40px;
+	line-height: 40px;
+	width:50%;
+	text-align: center;
+}
+.portraitprove{
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+}
+.portraitprove>a{
+	background: url(../img/icon/icon-flag2_7fefd1e.png) no-repeat;
+	display: inline-block;
+	width: 21px;
+	height: 21px;
+	margin-left: 5px;
+	vertical-align: middle;
+}
+.portraitprove>a:first-of-type{
+	background-position: 0px 0px;
+}
+.portraitprove>a:nth-of-type(2){
+	background-position: -30px 0px;
+}
+.portraitprove>a:nth-of-type(3){
+	background-position: -60px 0px;
+}
+.proved{
+	background-position-y:-28px !important;
+}
+/**
+ * 浣欓-鍏呭��
+ * */
+.balance-recharge{
+	width:100%;
+	height: 40px;
+	border-top: 1px solid white;
+	color:white;
+	overflow: hidden;
+}
+.balance{
+	width:50%;
+	height: 40px;
+	line-height: 40px;
+	float: left;
+	text-align: center;
+	font-size: 20px;
+	box-sizing: border-box;
+	background: lightblue;
+	position: relative;
+}
+.recharge{
+	width:50%;
+	height: 40px;
+	line-height: 40px;
+	float: right;
+	border-left: 1px solid white;
+	box-sizing: border-box;
+	text-align: center;
+	font-size: 20px;
+	background: lightblue;
+	color:white;
+	cursor: pointer;
+	position: relative;
+}
+.balance-money{
+	width:100%;
+	height: 40px;
+	display: block;
+	position: absolute;
+	top:40px;
+	left: 0;
+	background:darkcyan;
+	color:darkmagenta;
+	text-align: center;
+	line-height: 40px;
+	animation-fill-mode: both;
+}
+.torecharge{
+	width:100%;
+	height: 40px;
+	display: block;
+	position: absolute;
+	top:40px;
+	left: 0;
+	background:darkcyan;
+	color:darkmagenta;
+	text-align: center;
+	line-height: 40px;
+	animation-fill-mode: both;
+}
+.torecharge:hover{
+	text-decoration: none;
+}
+.personalcatetogrys{
+	width:100%;
+	height:auto;
+	border-left:1px solid white;
+	border-bottom:1px solid white;
+	border-right:1px solid white;
+}
+.personalcatetogrys>li{
+	width: 100%;
+	height:50px;
+	border-top:1px solid white;
+}
+.personalcatetogrys>li>a{
+	text-align: center;
+	color:black;
+	height:50px;
+	width: 100%;
+	display: block;
+	font-size: 20px;
+	line-height: 50px;
+	background: lightblue;
+}
+.personalcatetogrys>li>a:hover{
+	text-decoration: none;
+	background: white;
+	border-left: 1px solid lightblue;
+	box-sizing: border-box;
+}
+.navicatehover{
+	text-decoration: none !important;
+	background: white !important;
+	border-left: 1px solid lightblue !important;
+	box-sizing: border-box !important;
+}
+/**
+ * 鍙宠竟鍐呭鍖哄煙
+ * */
+.personalcatecontents{
+	width:73%;
+	height: auto;
+	float: right;
+}
+.personalcatebox{
+	width:100%;
+}
+/**
+ * 璐墿杞﹀唴瀹瑰紑濮�
+ * */
+.goodslist{
+	width: 100%;
+	text-align: center;
+	border: 1px solid gray;
+	border-collapse:collapse;
+}
+.xuanze{
+	width:8%;
+	height:40px;
+}
+.goodsimg{
+	width:10%;
+	height: 40px;
+}
+.goodsname{
+	width:25%;
+	height: 40px;
+}
+.goodspec{
+	width:13%;
+	height: 40px;
+}
+.goodsprice{
+	width:12%;
+	height: 40px;
+}
+.goodsnum{
+	width: 10%;
+	height: 40px;
+	overflow: hidden;
+}
+.totalmoney{
+	width: 14%;
+	height: 40px;
+}
+.actions{
+	width: 8%;
+	height: 40px;
+}
+.goodsinfo{
+	width: 100%;
+	height:100px;
+	border-top: 1px solid gray;
+}
+.goodsinfo:hover{
+	background: lightblue;
+}
+.imgstyle{
+	display: block;
+	width: 100%;
+	height: 100px;
+}
+.imgstyle>img{
+	width: 100%;
+	height: 100px;
+}
+.titlestyle{
+	word-wrap: break-word;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.sendbox{
+	height: 40px;
+	width: 100%;
+	margin-top: 30px;
+}
+.tosend{
+	width: 100px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	float: right;
+	background: mediumvioletred;
+	color: #ffffff;
+	font-size: 20px;
+	font-weight: 800;
+	cursor: pointer;
+}
+.boxtitle{
+	height: 60px;
+	width: 100%;
+	line-height: 60px;
+}
+.boxtitle input{
+	height: 40px;
+	width: 100px;
+	text-align: center;
+	vertical-align: middle;
+	margin-left: 15px;
+	background: violet;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.goodsnumstyle{
+	width:100%;
+	height:100px;
+}
+.goodsnumstyle>input{
+	display: block;
+	height: 20px;
+	width: 30%;
+	float: left;
+	border-left:none;
+	border-right: none;
+	border-radius:0;
+	box-sizing: border-box;
+	margin-top: 40px;
+}
+.goodsnumstyle>span{
+	width:35%;
+	height:20px;
+	display: block;
+	float: left;
+	background: mediumvioletred;
+	text-align: center;
+	line-height: 20px;
+	font-size: 16px;
+	cursor: pointer;
+	margin-top: 40px;
+}
+/**
+ * 鍩烘湰璧勬枡鍐呭寮�濮�
+ * */
+.personinfo{
+	width:100%;
+	height: 60px;
+}
+.personinfo>th{
+	width:20%;
+	text-align: right;
+	font-size: 20px;
+}
+.personinfo>td{
+	text-align: left;
+	width:40%;
+}
+.personinfo input[type=text]{
+	width:100%;
+	height:40px;
+	font-size: 16px;
+}
+.personinfo select{
+	width:50%;
+	height:40px;
+	font-size: 16px;
+}
+.shortselect{
+	width:30% !important;
+	margin-left: 2%;
+}
+.personinfo button{
+	width:100px;
+	height: 30px;
+	font-size: 20px;
+	background: black;
+	color: white;
+	cursor: pointer;
+}
+/**
+ * 鎴戠殑鐩哥墖寮�濮�
+ * */
+.myphotos{
+	width:100%;
+	height:auto;
+}
+.myphotos>li{
+	width:25%;
+	height:200px;
+	float: left;
+}
+.myphotos>li>img{
+	width: 90%;
+	height: 94%;
+	display: block;
+	margin: 0 auto;
+}
+/**
+ * 璁よ瘉淇℃伅
+ * */
+.proves{
+	width:100%;
+	height:auto;
+}
+.provebanner{
+	width: 100%;
+	height:112px;
+}
+.provebanner>img{
+	width:100%;
+	height: 100%;
+}
+.proveinfo{
+	width:100%;
+	height: 112px;
+	margin-top: 20px;
+	background: lightgray;
+}
+.proveicon{
+	float: left;
+	height: 82px;
+	width:82px;
+	background: url(../img/accost/myCredit_881cb7a.png) no-repeat;
+	margin:15px;
+}
+.phoneicon{
+	background-position: 0 -636px;
+}
+.avataricon{
+	background-position: 0 -318px;
+}
+.shenfenicon{
+	background-position:0 -106px;
+}
+.proveinfo>p{
+	width: 82%;
+	height: 82px;
+	float: right;
+	margin-top: 15px;
+	line-height: 82px;
+	font-size: 30px;
+	text-indent: 10%;
+}
+.proveinfo>p>button{
+	width: 200px;
+	height: 40px;
+	vertical-align: middle;
+	line-height: 40px;
+	float: right;
+	margin: 21px;
+	background: white;
+	font-size: 20px;
+	cursor: pointer;
+}
+.proveinfo>p>button:hover{
+	background: black;
+	color:white;
+}
+/**
+ * 鎴戠殑绀肩墿椤甸潰
+ * */
+.xz{
+	width:6%;
+	height:40px;
+}
+.gimg{
+	width:16%;
+	height:40px;
+}
+.gname{
+	width:18%;
+	height:40px;
+}
+.gspec{
+	width:12%;
+	height:40px;
+}
+.gnum{
+	width:6%;
+	height:40px;
+}
+.gnick{
+	width:12%;
+	height:40px;
+}
+.gsend{
+	width:12%;
+	height:40px;
+}
+.gstatus{
+	width:8%;
+	height:40px;
+}
+.contentstitle{
+	height: 40px;
+	width: 100%;
+	border: 1px solid gray;
+	box-sizing: border-box;
+	margin-bottom: 30px;
+}
+.contentstitle>div{
+	float: left;
+	width: 150px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	border-right: 1px solid gray;
+	cursor: pointer;
+}
+
+.selectstyle{
+	color:red;
+	font-weight: 800;
+	position: relative;
+	border-bottom: 2px solid red;
+	box-sizing: border-box;
+}
+.selectstyle>div{
+	display: block !important;
+}
+.angle{
+	position: absolute;
+	width: 0px;height: 0px;
+	border-bottom:4px solid red;
+	border-top:4px solid transparent;
+	border-left:4px solid transparent;
+	border-right:4px solid transparent;
+	bottom:0px;
+	left:0;right: 0;margin: auto;
+	display: none;
+}
+/**
+ * 鎴戠殑鍠滄椤甸潰
+ * */
+.ginfo{
+	width: 20%;
+	height:40px;
+}
+.gprice{
+	width: 10%;
+	height:40px;
+}
+.gintro{
+	width: 42%;
+	height:40px;
+}
+
+.addgallery{
+	width:98%;
+	margin:0 auto;
+	overflow:hidden;
+	height:0;
+}
+.addbtn{
+	width:98%;
+	margin:0 auto;
+	overflow:hidden;
+	text-align:right;
+	height:40px;
+	line-height:40px;
+	margin-bottom:10px;
+}
+.addbtn>button{
+	width:60px;
+	height:36px;
+	background-color:lightblue;
+	font-size:16px;
+}
+.selectture{
+	box-sizing:border-box;
+	border:3px solid black;
+}

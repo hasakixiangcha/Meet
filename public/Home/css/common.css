@@ -1,0 +1,145 @@
+/**
+ * 初始化标签样式
+ * */
+*{margin:0;padding: 0;}
+ul,ol{list-style: none;}
+a{text-decoration: none;cursor: pointer;}
+a:hover{text-decoration: underline;}
+i,u,em{font-style: normal;}
+input{outline:none;border-radius: 3px;border: 1px solid gray;text-indent:5px;vertical-align:middle;}
+button{border:none;outline:none;vertical-align:middle;border-radius: 3px;}
+@font-face{
+	font-family:'xingshu';
+	src:url('../font/msyh.TTF') ;
+}
+p,button,input,table,a{font-family:'xingshu';}
+.clear:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+/**
+ *顶部样式
+ * */
+#head{
+	width: 100%;
+	min-width: 1400px;
+	margin: 0 auto;
+}
+#top{
+	width: 100%;
+	height: 40px;
+	background: mediumvioletred;
+}
+#top-text{
+	width: 70%;
+	height: 40px;
+	margin: 0 auto;
+	font-size: 14px;
+}
+.top-text-left{
+	width: 450px;
+	height:40px;
+	float: left;
+	line-height: 40px;
+	color:white;
+}
+.top-text-right{
+	width: 300px;
+	height: 40px;
+	float: right;
+}
+.top-text-right>a{
+	width: 98px;
+	height: 40px;
+	float: left;
+	line-height: 40px;
+	color: white;
+	padding-left: 35px;
+	box-sizing: border-box;
+}
+.top-text-right>i{
+	width: 2px;
+	height: 40px;
+	float: left;
+	line-height: 40px;
+	text-align: center;
+	color: white;
+}
+/**
+ *菜单栏样式
+ * */
+#navication{
+	width: 100%;
+	min-width: 1400px;
+	height: 106px;
+	background: white;
+	margin: 0 auto;
+}
+#navication-box{
+	width: 70%;
+	height: 106px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+#navlogo{
+	width: 250px;
+	height:78px;
+	overflow: hidden;
+	margin: 14px 0 14px 0;
+	border-right: 1px dashed #ccc;
+	float: left;
+}
+#navlogo>img{
+	width:176px;
+	height: 78px;
+	display: block;
+	
+}
+#navicates{
+		height: 106px;
+		float: left;
+}
+#navicates>li{
+	width: 90px;
+	height: 106px;
+	line-height: 106px;
+	float: left;
+	text-align: center;
+}
+#navicates>li>a{
+	border-radius: 5px;
+	padding: 3px;
+	color:black;
+	font-weight: 800;
+}
+.hoverclass{
+	background:#f4ec04;
+	color:mediumvioletred !important;
+	text-decoration: none;
+}
+#navicates>li:hover a{
+	background:#f4ec04;
+	color:mediumvioletred;
+	text-decoration: none;
+}
+#server-call{
+	text-align: center;
+	float: right;
+	height: 106px;
+	line-height: 106px ;
+	color:red;
+}
+/**
+ * 底部样式
+ * */
+#footer{
+	width: 100%;
+	min-width: 1400px;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	color:mediumvioletred;
+	font-family: 'xingshu';
+	margin-top: 30px;
+}

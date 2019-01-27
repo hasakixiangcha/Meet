@@ -1,0 +1,137 @@
+body{
+	background:url(../img/registerbg.jpg) no-repeat ;
+	background-size: cover;
+}
+#regbox{
+	height: auto;
+	margin: 0 auto;
+	width: 600px;
+	background:#ff99ff;
+
+}
+/***/
+#infotitle{
+	height: 50px;
+	width: 100%;
+	text-align: center;
+	line-height: 50px;
+	color: #FF4500;
+	font-size: 30px;
+}
+#infobox{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+.infoline{
+	width: 100%;
+	overflow: hidden;
+}
+.infoleft{
+	height: 50px;
+	width: 20%;
+	line-height: 50px;
+	text-align: right;
+	float: left;
+	font-size: 20px;
+}
+.inforight{
+	float: right;
+	width: 80%;
+	height: 50px;
+	line-height: 50px;
+	padding-left: 20px;
+	box-sizing: border-box;
+}
+.inputtype{
+	width:70%;
+	height: 40px;
+	border: none;
+	font-size: 20px;
+	vertical-align:middle;
+}
+.yzmbox{
+	width:70%;
+	height: 50px;
+}
+.yzm{
+	width:35%;
+	height:40px;
+	font-size: 20px;
+	margin-top:5px;
+	border: none;
+	float:right
+}
+.yzmcode{
+	width:60%;
+	height:40px;
+	margin-top:5px;
+	float:left;
+}
+.radio{
+	padding-right: 30px;
+	font-size: 20px;
+}
+.radio>input{
+	width: 15px;
+	height: 15px;
+	margin-right: 5px;
+}
+.require{
+	color: red;
+	font-size: 24px;
+	line-height: 40px;
+}
+.tips{
+	color: red;
+	padding-left: 10px;
+	font-size: 14px;
+	line-height: 40px;
+}
+.infoleft-hign{
+	height: 100px;
+	width: 20%;
+	line-height: 100px;
+	text-align: right;
+	float: left;
+	font-size: 20px;
+}
+.inforight-hign{
+	float: right;
+	width: 80%;
+	height: 100px;
+	line-height: 100px;
+	padding-left: 20px;
+	box-sizing: border-box;
+}
+.inforight-img{
+	float: right;
+	width: 80%;
+	height: 200px;
+	line-height: 100px;
+	padding-left: 20px;
+	box-sizing: border-box;
+}
+.imgbtn{
+	width:230px;
+	height:200px;
+}
+.textareainfo{
+	width:70%;
+	height: 80px;
+	font-size: 20px;
+	vertical-align:middle;
+	color: black;
+}
+.subline{
+	height: 80px;
+	line-height: 80px;
+	width: 100%;
+	text-align: center;
+}
+.inputsubmit{
+	width: 200px;
+	height: 40px;
+	font-size: 24px;
+	background: white;
+}

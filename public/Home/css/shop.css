@@ -1,0 +1,163 @@
+@CHARSET "UTF-8";
+/**
+*轮播图开始
+*/
+#shopcarouselbox{
+	width:100%;
+	min-width:1400px;
+	height:440px;	
+	margin-top:30px;
+	position:relative;
+}
+#shopcarouselbox>ul{
+	width:100%;
+	height:440px;
+	overflow:hidden;
+}
+.shopcarousel{
+	width:100%;
+	height:100%;
+	position:absolute;
+	left:0;
+	top:0;
+}
+.shopcarousel>a{
+	display:block;
+	width:100%;
+	height:100%;
+}
+.shopcarousel>a>img{
+	display:block;
+	width:100%;
+	height:100%;
+}
+@keyframes  shopcarousel{
+		0%{z-index:1}
+	    100%{z-index:10}
+}
+/**
+*轮播图的进度点
+*/
+#shopcarouselc{
+	width:100px;
+	height:10px;
+	position:absolute;
+	left:0;bottom:30px;right:0;margin:auto;
+	display: flex;
+	justify-content: space-between;
+	opacity: 0.5;
+}
+.shopcarousel-circle{
+	width:30px;
+	height:10px;
+	line-height:10px;
+	background:mediumvioletred;
+	overflow: hidden;
+	color:white;
+	text-align:center;
+	text-indent:-50px;
+}
+
+/**
+ * 分类
+ * */
+#categorybox{
+	width:100%;
+	min-width: 1400px;
+	height: 100px;
+	overflow: hidden;
+}
+#categorys{
+	width:70%;
+	height: 80px;
+	margin: 10px auto;
+	text-align: center;
+}
+#categorys>a{
+	width:150px;
+	height:60px;
+	font-size: 30px;
+	line-height: 60px;
+	display:inline-block;
+	margin-top: 10px;
+	text-align: center;
+}
+#categorys>a:hover{
+	color:red;
+	text-decoration: none;
+}
+/**
+ * 商品开始
+ * */
+#goodsbigbox{
+	width:100%;
+	min-width: 1400px;
+	height: auto;
+	overflow: hidden;
+}
+#goodsbox{
+	width: 70%;
+	height: auto;
+	margin: 0 auto;
+}
+#goodsbox>ul{
+	width: 100%;
+	height: auto;
+}
+.goodsli{
+	width:25%;
+	height:360px;
+	float: left;
+	box-sizing: border-box;
+	border:2px solid lightgray;
+}
+.goodsli:hover{
+	box-shadow:5px 5px 3px darkgray inset,-5px -5px 3px darkgray inset;
+}
+.goods{
+	width:85%;
+	height:360px;
+	display: block;
+	color:black;
+	margin: 0 auto;
+	font-size: 16px;
+}
+.goodsimg{
+	margin-top: 20px;
+	width: 100%;
+	height:240px;
+	position: relative;
+}
+.goodsimg>img{
+	width: 100%;
+	height:240px;
+}
+.goodstag{
+	position: absolute;
+	background: url(../img/icon/icon_all.png) no-repeat -200px -300px;
+    width: 45px;
+    height: 45px;
+    color: #FFF;
+    text-align: center;
+    font-size: 12px;
+    line-height: 45px;
+    right: -12px;
+    bottom: -12px;
+}
+.goodstitle{
+	height: 40px;
+	line-height: 40px;
+}
+.goodsintro{
+	height: 40px;
+	line-height: 40px;
+}
+.goodsintro>span{
+	color:#F25416;
+}
+.goodsintro>em{
+	float: right;
+}
+.goodsintro>em>b{
+	color:slategray;
+}

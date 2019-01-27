@@ -1,0 +1,120 @@
+#activebanner{
+	width:100%;
+	height:150px;
+	background: url(../img/hd.jpg) center no-repeat;
+	background-size: cover;
+}
+#content-box{
+	width: 100%;
+	min-width: 1400px;
+	height:auto;
+	margin: 0 auto;
+}
+#active-box{
+	width:70%;
+	height:auto;
+	overflow: hidden;
+	margin:0 auto;
+	margin-top: 20px;
+}
+#active-left{
+	width: 70%;
+	height: auto;
+	float: left;
+}
+#active-right{
+	width: 25%;
+	height: auto;
+	float: right;
+}
+.active-intro{
+	width:100%;
+	height:200px;
+}
+.active-img{
+	width: 30%;
+	height: 200px;
+	float: left;
+}
+.active-tab{
+	width: 68%;
+	height:200px;
+	float: right;
+}
+.active-btn{
+	width: 100px;
+	height: 35px;
+	background-color: black;
+	color: white;
+	cursor: pointer;
+}
+.active-tab span{
+	font-weight: 800;
+	color: #666;
+}
+.active-detail-title{
+	height: 35px;
+	width: 100%;
+	margin-top: 20px;
+	color: #666;
+	text-align: center;
+	border-bottom:2px solid red;
+	line-height: 35px;
+}
+.detail-content{
+	width:100%;
+	height: auto;
+	font-size:16px;
+	line-height: 30px;
+	padding-top: 20px;
+	padding-left: 10px;
+	box-sizing: border-box;
+}
+.join{
+	width:100%;
+	height: 180px;
+}
+.join-member{
+	margin-top: 20px;
+	width:100%;
+	height: auto;
+}
+.join-member>h3{
+	width:100%;
+	height: 40px;
+	line-height: 40px;
+	text-align: left;
+	color: red;
+	border-bottom: 2px solid red;
+}
+.members-info{
+	width: 100%;
+	height: auto;
+}
+.members-info li{
+	width: 100%;
+	height:100px;
+	margin-top: 20px;
+	border-bottom: 1px dotted #666;
+}
+.join-link{
+	display: block;
+	width: 100%;
+	height: 100px;
+}
+.join-link img{
+	width: 30%;
+	height: 80px;
+	float: left;
+}
+.join-link div{
+	width:65%;
+	height: 80px;
+	float: right;
+}
+.font-red{
+	color: red;
+}
+.font-black{
+	color: black;
+}

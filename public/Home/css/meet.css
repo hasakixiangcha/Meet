@@ -1,0 +1,249 @@
+/**
+ * meet页面
+ * 搜索栏开始
+ */
+#search-bigbox{
+	width: 100%;
+	min-width: 1400px;
+	height: auto;
+}
+#search-box{
+	width: 70%;
+	height: auto;
+	margin:0 auto;
+	background:mediumvioletred;
+}
+.searchtagbox{
+	width: 95%;
+	margin:0 auto;
+	overflow: hidden;
+	border-bottom: 1px dashed lightgrey;
+}
+.seachtagtitle{
+	height: 60px;
+	line-height: 60px;
+	font-size: 16px;
+	color:white;
+}
+.seachtagtitle>span{
+	float: right;
+	height: 60px;
+	line-height: 60px;
+}
+.seachtagtitle>span>a{
+	margin:0px 5px;
+	color:#F25416;
+}
+.seachtags{
+	height: 40px;
+	line-height: 40px;
+}
+.seachtags>span{
+	font-size: 14px;
+	color:white;
+}
+.seachtags>a{
+	background: #ffc60b;
+	margin-left: 10px;
+	padding: 3px 10px;
+	border-radius: 8px;
+	color:#F25416;
+}
+.seachtags>a:hover{
+	text-decoration: none;
+	color:white;
+	background: #F25416;
+}
+.selectedtag{
+	text-decoration: none;
+	color:white !important;
+	background: #F25416 !important;
+}
+/**
+ * 标签结束
+ * 帅选开始
+ * */
+.seachcondbox{
+	width: 95%;
+	height: 100px;
+	margin:0 auto;
+	overflow: hidden;
+}
+.seachcondbox>p{
+	height: 40px;
+	line-height: 40px;
+	
+	font-size: 16px;
+}
+.seachcondbox>p>span{
+	font-size: 14px;
+	color:white;
+}
+.seachcondbox>p>select{
+	height: 30px;
+	border:2px solid #ffc60b;
+	color:#F25416;
+	margin: 0 3px;
+}
+.seachcondbox>p:nth-of-type(2){
+	height: 40px;
+	line-height: 40px;
+}
+.searchbtn{
+	height: 40px;
+	line-height: 36px;
+	width: 100px;
+	background: #F25416;
+	border: 2px solid #ffc60b;
+	box-sizing: border-box;
+	color:white;
+	font-size: 20px;
+	cursor: pointer;
+	display: block;
+	float: right;
+	vertical-align: middle;
+}
+.searchbtn:hover{
+	background: #ffc60b;
+	color: mediumvioletred;
+}
+/**
+ * 人物展现
+ * */
+#searchpersons{
+	width: 100%;
+	min-width: 1400px;
+	height:600px;
+}
+#searchpersonbox{
+	width: 70%;
+	height: 600px;
+	margin: 20px auto;
+	background:mediumvioletred;
+	position: relative;
+}
+.personsbox{
+	width:400px;
+	height: 500px;
+	position: absolute;
+	left: 0;top:0;right: 0;bottom: 0;
+	margin: auto;
+	border:1px solid gray;
+}
+.personsul{
+	width: 400px;
+	height: 400px;
+	position: relative;
+}
+.persons{
+	width: 400px;
+	height: 400px;
+	position:absolute;
+	left: 0;
+	top:0;
+}
+.persons>img{
+	width: 400px;
+	height: 400px;
+}
+.persons>p{
+	width: 100%;
+	height:30px;
+	background: black;
+	color:white;
+	line-height: 30px;
+	opacity: 0.5;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	text-align: center;
+}
+.persons>p>b{
+	font-size:16px;
+}
+.persons>p>span{
+	margin-left: 10px;
+	font-size: 14px;
+}
+.reloadpersons{
+	height: 30px;
+	line-height: 30px;
+	text-align:right;
+}
+.reloadpersons>button{
+	width:80px;
+	height: 30px;
+	background: transparent;
+	line-height: 30px;
+	margin-right: 30px;
+	color:#ffc60b;
+	cursor: pointer;
+}
+.reloadpersons>button:hover{
+	color: #fd5e94;
+}
+.reloadpersons>button:hover i{
+	background: url(../img/icon/reloadhover.png) no-repeat;
+	background-size: 100% 100%;
+}
+.reloadpersons>button>i{
+	display: inline-block;
+	vertical-align: middle;
+	border-radius: 16px;
+	width: 16px;
+	height: 16px;
+	background: url(../img/icon/reload.png) no-repeat;
+	background-size: 100% 100%;
+}
+/**
+ * 选择钮
+ * */
+.personselect{
+	width: 100%;
+	height: 100px;
+	background:#eef3fa;
+	overflow: hidden;
+}
+.selectfeel{
+	height: 50px;
+	width: 80%;
+	margin:25px auto;
+	position: relative;
+}
+.selectfeel>div{
+	width:50px;
+	height: 50px;
+	position: absolute;
+	top:0;
+	background-size: 50px 50px;
+	cursor: pointer;
+	line-height: 50px;
+	font-size: 14px;
+}
+.selectfeel>div>p{
+	position: absolute;
+	bottom: -30px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 14px;
+	text-align: center;
+	display: none;
+}
+.selectfeel>div:first-of-type{
+	background:url(../img/icon/nofeel.png) no-repeat;
+	left:0;
+}
+.selectfeel>div:hover p{
+	color:#F25416;
+	display: block;
+}
+.selectfeel>div:nth-of-type(2){
+	background:url(../img/icon/thinks.png) no-repeat;
+	left:0;
+	right:0;
+	margin: auto;
+}
+.selectfeel>div:last-of-type{
+	background:url(../img/icon/feelgood.png) no-repeat;
+	right:0;
+}

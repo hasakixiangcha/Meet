@@ -1,0 +1,514 @@
+/**
+ * 首页
+ * 轮播图
+ * */
+#carousel{
+	width: 100%;
+	min-width: 1400px;
+	height: 500px;
+	margin-top:30px;
+	overflow:hidden;
+	position: relative;
+}
+#carousel>ul{
+	width: 100%;
+	height: 100%;
+}
+.carousel{
+	width: 100%;
+	height: 500px;
+}
+.carousel>a>img{
+	width:100%;
+	height: 500px;
+}
+#carouselc{
+	width: 150px;
+	height: 10px;
+	position: absolute;
+	left:0;
+	right: 0;
+	top:450px;
+	margin:auto;
+	display: flex;
+	justify-content: space-between;
+	opacity: 0.5;
+}
+.carousel-circle{
+	width: 30px;
+	height: 10px;
+	background:mediumvioletred;
+	overflow: hidden;
+	text-indent: -30px;
+}
+/**
+ *轮播图结束，成功案例开始
+ * */
+#letsmarry{
+	width: 100%;
+	min-width: 1400px;
+	height: 460px;
+}
+#marrytitle{
+	width: 70%;
+	height: 120px;
+	margin: 0 auto;
+}
+.marry-declaration{
+	width: 100%;
+	height: 80px;
+	line-height: 80px;
+	text-align: center;
+	font-size: 30px;
+	color:#f25416;
+}
+.love-users{
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	font-size: 20px;
+}
+.love-users>b{
+	color:#f25416;
+}
+.lover{
+	background: url(../img/icon/lover_03.png) no-repeat;
+	padding:0 25px 0 25px;
+	font-size: 40px;
+}
+/**
+ * 有缘千里来相会
+ * */
+#meetyoubigbox{
+	width:100%;
+	height:500px;
+	overflow: hidden;
+	min-width: 1400px;
+	margin:20px 0 30px 0;
+}
+#meetyoubox{
+	width: 70%;
+	height: 500px;
+	margin: 0 auto;
+}
+#meetyoutitle{
+	width: 100%;
+	height:80px;
+	line-height: 80px;
+	text-align: center;
+	font-size: 40px;
+	color:#f25416;
+}
+#meetyousort{
+	width: 100%;
+	height:40px;
+	line-height: 40px;
+	text-align: center;
+	font-size: 20px;
+}
+#meetyousort>a{
+	display: inline-block;
+	width: 50px;
+	height: 20px;
+	line-height: 20px;
+	background:#f25416;
+	border-radius:5px;
+	margin:0 10px 0 10px;
+	color:yellow;
+}
+#meetyousort>a:hover{
+	text-decoration: none;
+	color:mediumvioletred;
+	background: yellow;
+}
+#meetyouusers{
+	width: 100%;
+	height: 380px;
+	overflow: hidden;
+}
+#meetyouusers>li{
+	width: 20%;
+	height: 190px;
+	float: left;
+}
+.meetuser{
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+.meetuser>img{
+	width: 100%;
+	height: 100%;
+}
+/**
+ *有缘千里来相会用户详情
+ * */
+.meetyoudetail{
+	width:100%;
+	height:100%;
+	background: white;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	opacity: 0.5;
+	display: none;
+}
+.meetyoudetail>p:first-of-type{
+	height: 40px;
+	line-height: 40px;
+	font-size: 30px;
+	text-align: center;
+	color:#f25416;
+	margin-top: 40px;
+}
+.meetyoudetail>p:nth-of-type(2){
+	height: 30px;
+	line-height: 30px;
+	font-size: 16px;
+	text-align: center;
+	color:mediumvioletred;
+}
+.meetyoudetail>p:nth-of-type(2)>span{
+	margin-left: 5px;
+}
+.meetyoudetail>p:nth-of-type(3){
+	line-height: 20px;
+	font-size: 14px;
+	text-align: center;
+	color:#f25416;
+	text-overflow: ellipsis;
+}
+/**
+ *线下交友
+ * */
+#undeline-friends{
+	width: 100%;
+	height: 400px;
+	min-width: 1400px;
+	background: #f93b5a;
+}
+#undeline-box{
+	width: 70%;
+	height: 400px;
+	margin: 0 auto;
+	position: relative;
+}
+#underline-title{
+	height:60px;
+	line-height: 60px;
+	font-size:26px;
+	color:yellow
+}
+#underline-title>b{
+	font-size: 30px;
+}
+#actives-box{
+	width: 100%;
+	height: 250px;
+	margin: 20px 0 40px 0;
+	position: relative;
+	overflow: hidden;
+}
+#details-box{
+	width: 300%;
+	height: 100%;
+	position: absolute;
+	left:0%;
+	top:0;
+}
+#actives-box>ul>li{
+	width:11.1%;
+	height: 250px;
+	float: left;
+}
+.active-detail{
+	display: block;
+	width:95%;
+	height: 100%;
+	margin: 0 auto;
+	background: white;
+	position: relative;
+}
+.active-detail:hover{
+	text-decoration: none;
+}
+.active-detail>img{
+	width: 100%;
+	height: 180px;
+	display: block;
+}
+.active-detail>p:first-of-type{
+	height: 40px;
+	line-height: 40px;
+	font-size: 20px;
+	text-overflow: ellipsis;
+	overflow : hidden;
+    word-break: break-all; 
+    color:mediumvioletred;
+}
+.active-detail>p:nth-of-type(2){
+	height: 30px;
+	line-height: 30px;
+	font-size: 16px;
+	text-overflow: ellipsis;
+	overflow : hidden;
+    word-break: break-all; 
+    color:mediumvioletred;
+}
+.active-detail>p:nth-of-type(2)>span{
+	margin-left:10px;
+}
+.active-detail>p:nth-of-type(2)>button{
+	display: inline-block;
+	vertical-align: middle;
+	background: mediumvioletred;
+	color: white;
+	width: 80px;
+	height: 20px;
+	line-height: 20px;
+	border-radius: 5px;
+	float: right;
+	margin-top: 5px;
+}
+.active-tab1{
+	width: 92px;
+	height: 81px;
+	background:url(../img/icon/indexActive-icon.png) no-repeat;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.active-tab2{
+	width: 92px;
+	height: 81px;
+	background:url(../img/icon/indexActive-icon.png) no-repeat;
+	background-position:0 -81px;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.toleft{
+	width: 30px;
+    height: 50px;
+	position: absolute;
+    left: -50px;
+    top: 175px;
+    background:url(../img/icon/indexActive-icon2.png) no-repeat;
+    background-position:-30px 0px;
+    cursor: pointer;
+}
+.toright{
+	width: 30px;
+    height: 50px;
+	position: absolute;
+    right: -50px;
+    top: 175px;
+    background:url(../img/icon/indexActive-icon2.png) no-repeat;
+    background-position:-60px 0px;
+    cursor: pointer;
+}
+/**
+ * 恋爱课堂
+ * */
+#marrycases{
+	width: 100%;
+	height: 300px;
+	margin-top: 40px;
+}
+.casebox{
+	width: 10%;
+	height: 300px;
+	float:left ;
+	background: white;
+}
+.case1{
+	margin-left: 15%;
+}
+.cases{
+	width:100%;
+	height: 100%;
+	position: relative;
+}
+.cases>li{
+	width: 90%;
+	height:48%;
+	position: absolute;
+}
+.cases>li>a>img{
+	width: 100%;
+	height: 100%;
+}
+.cases>li:first-child{
+	top: 0;
+	right: 0;left: 0;
+	margin: auto;
+}
+.cases>li:last-child{
+	bottom: 0;
+	right: 0;left: 0;
+	margin: auto;
+}
+.casedan{
+	width:100%;
+	height: 100%;
+	position: relative;
+}
+.casedan>a{
+	width:96%;
+	height: 100%;
+	position: absolute;
+	bottom: 0;
+	right: 0;left: 0;
+	margin: auto;
+	display: block;
+}
+.casedan>a>img{
+	width: 100%;
+	height: 100%;
+}
+/**
+ * 妗堜緥缁撴潫
+ * 鎭嬬埍璇惧爞寮�濮�
+ * */
+#lesson-love{
+	width: 100%;
+	height: 350px;
+	min-width: 1400px;
+	margin-top: 30px;
+    background:-webkit-linear-gradient(#fb0579, #c309f8);
+    background:-moz-linear-gradient(#fb0579, #c309f8);
+    background:-o-linear-gradient(#fb0579, #c309f8);
+    background:linear-gradient(#fb0579, #c309f8);
+}
+#lesson-box{
+	width: 70%;
+	height: 350px;
+	margin: 0 auto;
+}
+#lesson-video{
+	width: 48%;
+	height: 350px;
+	float: left;
+}
+#lesson-article{
+	width: 48%;
+	height: 350px;
+	float: right;
+}
+.lesson-title{
+	height: 40px;
+	line-height: 40px;
+	border-bottom: 1px solid black;
+}
+.lesson-title>b{
+	font-size: 30px;
+	float: left;
+	line-height: 40px;
+	color: yellow;
+}
+.lesson-title>a{
+	float: right;
+	line-height: 40px;
+	color: black;
+}
+.lesson-video{
+	width: 100%;
+	height:285px;
+	margin-top: 14px;
+}
+.lesson-video>a{
+	display: block;
+	width: 100%;
+	height:285px;
+	position: relative;
+}
+.lesson-video>a:hover #play-center{
+	display: block;
+}
+.lesson-video>a>img{
+	width: 100%;
+	height:285px;
+}
+.video-intro{
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	height: 50px;
+	line-height: 50px;
+	background: black;
+	opacity: 0.7;
+	color:white;
+	text-indent: 30px;
+	font-size: 20px;
+}
+.video-intro>i{
+	background: url(../img/icon/media_play_03.png);
+	padding-left: 20px;
+	font-size: 25px;
+	margin-right: 10px;
+}
+#play-center{
+	width:100px;
+	height: 100px;
+	position: absolute;
+	left:0;right: 0;bottom: 0;top: 0;
+	margin: auto;
+	display: none;
+}
+/**
+ * 鎭嬬埍璇惧爞宸﹁竟缁撴潫
+ * 鍙宠竟寮�濮�
+ * */
+.note-title{
+	height: 40px;
+	line-height: 40px;
+	border-bottom: 1px solid black;
+}
+.note-title>b{
+	font-size: 30px;
+	float: left;
+	line-height: 40px;
+	color:yellow;
+}
+.note-title>a{
+	float: right;
+	line-height: 40px;
+	color: black;
+}
+
+.love-notes{
+	height: 299px;
+	width: 100%;
+}
+.love-notes>li{
+	height:135px;
+	margin-top: 14px;
+	width: 33.3%;
+	float: left;
+}
+.note-lesson{
+	display: block;
+	width: 95%;
+	height: 100%;
+	background: lightgrey;
+	color:mediumvioletred;
+}
+.note-lesson:hover{
+	text-decoration: none;
+	color:blue;
+}
+.note-lesson>img{
+	width: 100%;
+	height: 105px;
+}
+.note-lesson>p{
+	height: 30px;
+	font-size: 14px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	line-height: 30px;
+}
+
